@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Interest Survey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div class="container">
+            <h1 id ="title">Send us your feedback!</h1>
+            <br />
+        <p id="description"> Complete your career interest survey to help you find the career best suited for you, based on your personal
+            profile. This will help us evaluate your opportunities and give you an informative report. </p> 
+        
+        <form id="survey-form" action="" method="post" autocomplete="on">
+        
+        <label id="name-label" for="Name">* Name</label>
+        <input autofocus type="text" id="name" class="input-field" placeholder="Enter your Name" name="name" required>
+        <br />
+        <br />
+        <label id="email-label" for="email">* Email </label>
+        <input type="email" name="email" id="email" class="input-field" required placeholder="Enter your Email">
+        <br />
+        <br />
+        
+            <label id="number-label" for="age">* Age</label> &nbsp  
+            <input type="number" name="age" id="number" min="1" max="125" class="input-field" placeholder="Age">
+        <br/>
+        <br />
+        
+        <label for="gender"> Gender</label> &nbsp
+        <select id="dropdown" class="dropdown"  name="gender">
+        <option disabled value="Select an option" >Select an option</option>
+        <option>--</option>
+        <option value="female">Female</option>
+        <option value="male">Male</option>
+        <option value="other">Other</option>
+        </select>
+        <br />
+        <br />
+        <br />
+        
+        What is your current career? Does it match your dream career?<br><br>
+        
+        <textarea id="comments" class="input-field" name="comment" placeholder="e.g: I am a fighter pilot and yes I achieved my dream career..."></textarea>
+        
+        <br />
+        <br />
+        
+        
+            <p class="q1">If you had the chance to change your current career field, would you do it?</p>
+        <label class="radio_button"><input type="radio" value="change" name="change">Yes</label>
+        <label class="radio_button"><Input type="radio" value="change" name="change">No</label>
+        <br />
+        <br />
+        
+        Field you are interested in:<br><br>
+        <label class="radio_button"><input name="interest" value="Business" type="checkbox" class="interest">Business</label>
+        <label class="radio_button"><input name="interest" value="Education" type="checkbox" class="interest">Education</label>
+            <label class="radio_button"><input name="interest" value="Marketing" type="checkbox" class="interest">Marketing</label>
+        <label class="radio_button"><input name="interest" value="Journalism" type="checkbox" class="interest">Journalism</label>
+        <label class="radio_button"><input name="interest" value="Psychology" type="checkbox" class="interest">Psychology</label>
+        <label class="radio_button"><input name="interest" value="Mathematics" type="checkbox" class="interest">Mathematics</label>
+        <label class="radio_button"><input name="interest" value="It Programming" type="checkbox" class="interest">IT Programming</label>
+        
+        <br />
+        <br />
+        
+        
+        Personal Qualities:<br><br>
+        <label class="radio_button"><input name="Qualities" value="Creative" type="checkbox" class="Qualities">Creative</label> 
+            <label class="radio_button"><input name="Qualities" value="Tenacious" type="checkbox" class="Qualities">Tenacious</label>
+        <label class="radio_button"><input name="Qualities" value="Organized" type="checkbox" class="Qualities">Organized</label>
+        
+        <label class="radio_button"><input name="Qualities" value="Methodical" type="checkbox" class="Qualities">Methodical</label> 
+        
+        <label class="radio_button"><input name="Qualities" value="fast learner" type="checkbox" class="Qualities">Fast learner</label>
+        
+        
+            <label class="radio_button"><input name="Qualities" value="Competitive" type="checkbox" class="Qualities">Competitive</label>
+            <label class="radio_button"><input name="Qualities" value="Self-educated" type="checkbox" class="Qualities">Self-educated</label>
+        <label class="radio_button"><input name="Qualities" value="Self-motivated" type="checkbox" class="Qualities">Self-motivated</label>
+        <label class="radio_button"><input name="Qualities" value="Decision Maker" type="checkbox" class="Qualities">Decision Maker</label>
+        <label class="radio_button"><input name="Qualities" value="Communicative" type="checkbox" class="Qualities">Communicative</label>
+        
+        
+        
+        
+        <br />
+        </br />
+        Hobbies: <br><br>
+        <label class="radio_button"><input name="Hobbies" value="Fishing"; type="checkbox" class="Hobbies">Fishing</label>
+        <label class="radio_button"><input name="Hobbies" value="Cooking"; type="checkbox" class="Hobbies">Cooking</label>
+        <label class="radio_button"><input name="Hobbies" value="Painting"; type="checkbox" class="Hobbies">Painting</label>
+        <label class="radio_button"><input name="Hobbies" value="Gardening"; type="checkbox" class="Hobbies">Gardening</label>
+        <label class="radio_button"><input name="Hobbies" value="Networking"; type="checkbox" class="Hobbies">Networking</label>
+        <label class="radio_button"><input name="Hobbies" value="Programming"; type="checkbox" class="Hobbies">Programming</label>
+        <label class="radio_button"><input name="Hobbies" value="Mountain Hiking"; type="checkbox" class="Hobbies">Mountain Hiking</label> 
+        
+        <label class="radio_button"><input name="Hobbies" value="Listening to Music"; type="checkbox" class="Hobbies">Listening to Music</label>
+        
+        <label class="radio_button"><input name="Hobbies" value="Playing Video Games"; type="checkbox" class="Hobbies">Playing Video Games</label>
+        
+        
+        <br />
+        <br />
+        
+        <button id="submit" type="submit">Submit</button>
+        
+        </form>	
+        
+        <footer class="footer"> &copy <a href=
+        "https://github.com/nisha3003" target="_blank">Nisha Bharti</a> </footer>
+        </div><!-- End of Container -->
+</body>
+</html>

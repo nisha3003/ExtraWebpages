@@ -1,0 +1,129 @@
+    @import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+    
+    body { 
+        font-family: 'Fredoka One', cursive;
+            background-color:#b5e1f0; }
+
+    .container {
+    background-color: lightblue;
+    width: 70%;
+    border: 2px solid darkturquoise;
+    margin: 50px auto;
+    overflow: hidden;
+    }
+
+    #title { 
+    padding: 30px 20px 30px 20px;
+    background-color: darkturquoise;
+    color: white;
+    font-size: 20px;
+    }     
+
+    h1 { 
+    margin:-1px auto; 
+    }
+
+    #description { 
+    color: rgb(8, 94, 116);
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    }
+
+    #survey-form {
+    padding: 20px;
+    }
+
+    .input-field {
+    height: 30px;
+    width: 50%;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+    }
+
+    #comments {
+    width: 50%;
+    height: 100px;
+    margin: 0;
+    }
+
+    .q1 {
+    width: 100%;
+    }
+
+    #submit {
+    background-color: #00ced1;
+    border-radius: 5px;
+    color:white;
+    font-size: 1em;
+    width: 100px;
+    height: 40px;
+    margin: 25px auto;
+    border: 1px solid white;
+    }
+
+    #submit:active { 
+    color: black; 
+    border-color: #00e; 
+    }
+    
+    
+
+    footer { 
+    margin:auto; 
+    padding:0px 0px 0px 25em; 
+    }
+
+    a { 
+    text-decoration: none; 
+    }
+
+    /****************************
+    Media Queries
+    ****************************/
+
+
+    @media ( max-width: 768px ) {
+    .container {
+        width: 90%
+    }
+    .radio_button {
+        display: block;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    #comments {
+        width: 80%;
+    }
+    .footer{ padding:0px 0px 0px 24em; }
+    }
+
+
+    @media (max-width: 590px) {
+    .container {
+        width: 96%;
+    }
+    #comments {
+        width: 60%;
+    }
+    #survey-form {
+        width: 100%;
+    }
+    .footer{ padding:0px 0px 0px 11em; 
+    }
+
+    @media (max-width: 490px) { /*apple iphone 6s 6plus */
+    .input-field {
+        width: 60%;
+    }
+    #comments {
+        width: 60%;
+    }
+    #survey-form {
+        width: 100%;
+    }
+    .footer{ padding:0px 0px 0px 9em; }
+    }
+    }

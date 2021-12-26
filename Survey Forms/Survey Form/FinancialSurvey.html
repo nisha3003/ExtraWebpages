@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Financial Survey Form</title>
+</head>
+<body>
+        <div class="container">
+            <header class="header">
+                <h1 id="title" class="text-center">Financial Services Survey Form</h1>
+                <p id="description" class="description text-center">
+                Thank you for taking the time to help us improve our service.
+                </p>
+                <p class="sr-only">Below is customer service evaluation form.</p>
+            </header>
+            <form id="survey-form">
+                <div class="form-group">
+                <label id="name-label" for="name">Name</label>
+                <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    class="form-control"
+                    placeholder="Enter your name"
+                    required
+                />
+                </div>
+                <div class="form-group">
+                <label id="email-label" for="email">Email</label>
+                <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    class="form-control"
+                    placeholder="Enter your Email"
+                    required
+                />
+                </div>
+                <div class="form-group">
+                <label id="number-label" for="number"
+                    >Age<span class="clue">(optional)</span></label
+                >
+                <input
+                    type="number"
+                    name="age"
+                    id="number"
+                    min="10"
+                    max="99"
+                    class="form-control"
+                    placeholder="Age"
+                />
+                </div>
+                <div class="form-group">
+                <p>Which of the following best describes your risk tolerance?</p>
+                <select id="dropdown" name="role" class="form-control" required>
+                    <option disabled selected value>Select option</option>
+                    <option value="student">Conservative</option>
+                    <option value="job">Moderate-conservative</option>
+                    <option value="learner">Moderate</option>
+                    <option value="preferNo">Moderate-aggressive</option>
+                    <option value="other">Aggressive</option>
+                </select>
+                </div>
+            
+                <div class="form-group">
+                <p>Would you recommend our services to a friend?</p>
+                <label>
+                    <input
+                    name="user-recommend"
+                    value="definitely"
+                    type="radio"
+                    class="input-radio"
+                    checked
+                    />Definitely</label
+                >
+                <label>
+                    <input
+                    name="user-recommend"
+                    value="maybe"
+                    type="radio"
+                    class="input-radio"
+                    />Maybe</label
+                >
+            
+                <label
+                    ><input
+                    name="user-recommend"
+                    value="not-sure"
+                    type="radio"
+                    class="input-radio"
+                    />Not sure</label
+                >
+                </div>
+            
+                <div class="form-group">
+                <p>
+                    Which of our services were you seeking today?
+                </p>
+                <select id="most-like" name="mostLike" class="form-control" required>
+                    <option disabled selected value>Select an option</option>
+                    <option value="challenges">Budgeting</option>
+                    <option value="projects">Financial planning</option>
+                    <option value="community">Banking</option>
+                    <option value="openSource">Insurance</option>
+                </select>
+                </div>
+            
+                <div class="form-group">
+                <p>
+                    Which of our products are you investing in today?
+                    <span class="clue">(Check all that apply)</span>
+                </p>
+            
+                <label
+                    ><input
+                    name="prefer"
+                    value="front-end-projects"
+                    type="checkbox"
+                    class="input-checkbox"
+                    />Savings or checking accounts</label
+                >
+                <label>
+                    <input
+                    name="prefer"
+                    value="back-end-projects"
+                    type="checkbox"
+                    class="input-checkbox"
+                    />Certificates of deposit</label
+                >
+                <label
+                    ><input
+                    name="prefer"
+                    value="data-visualization"
+                    type="checkbox"
+                    class="input-checkbox"
+                    />Mutual funds</label
+                >
+                <label
+                    ><input
+                    name="prefer"
+                    value="challenges"
+                    type="checkbox"
+                    class="input-checkbox"
+                    />Life insurance</label
+                >
+                <label
+                    ><input
+                    name="prefer"
+                    value="open-source-community"
+                    type="checkbox"
+                    class="input-checkbox"
+                    />Annuities</label
+                >
+                <label
+                    ><input
+                    name="prefer"
+                    value="gitter-help-rooms"
+                    type="checkbox"
+                    class="input-checkbox"
+                    />529 Education Savings Plans</label
+                >
+                <label
+                    ><input
+                    name="prefer"
+                    value="videos"
+                    type="checkbox"
+                    class="input-checkbox"
+                    />IRAs/Roth IRAs</label
+                >
+            
+                <div class="form-group">
+                <p>Please leave any comments or suggestions below.</p>
+                <textarea
+                    id="comments"
+                    class="input-textarea"
+                    name="comment"
+                    placeholder="Enter your comment here..."
+                ></textarea>
+                </div>
+            
+                <div class="form-group">
+                <button type="submit" id="submit" class="submit-button">
+                    Submit
+                </button>
+                </div>
+            </form>
+        </div>
+</body>
+</html>
