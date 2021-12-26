@@ -1,0 +1,95 @@
+body {
+  background: white;
+  color: #fff;
+  margin-top: 105px; }
+
+.navbar {
+  box-shadow: 2px 2px 5px #fff;
+  opacity: 0.8;
+  background: black; }
+  .navbar .nav-item {
+    font-size: 1.4rem;
+    padding-right: 20px; }
+
+#about {
+  position: inherit;
+  background: black; }
+
+#home-section {
+  background: url("../img/muc.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px; }
+  #home-section .home-inner {
+    padding-top: 550px; }
+
+#explore-section, #share-section {
+  background: #333; }
+  #explore-section .fa, #share-section .fa {
+    color: #fff;
+    background: #333;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 30px; }
+
+#goTop {
+  position: relative;
+  top: -60px;
+  height: 85px;
+  width: 85px;
+  align-content: center;
+  background: white; }
+
+#copyright {
+  background-color: transparent; }
+
+footer {
+  margin-top: 60px;
+  background-size: 100% 100%;
+  background-size: cover;
+  box-shadow: 0px 0px 10px grey;
+  display: inline-block;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.footerTitle {
+  color: #ffffff;
+  justify-content: center;
+  text-indent: 40px; }
+
+#footerContainer {
+  align-content: center;
+  justify-content: center; }
+
+.columnContentText {
+  color: white; }
+
+#team img {
+  margin-top: -70px; }
+
+#team .fa {
+  font-size: 25px; }
+
+#team .card:hover {
+  background: #3292a6;
+  color: #fff; }
+  #team .card:hover .fa {
+    color: #fff; }
+
+#faculty .card {
+  background: black; }
+
+#faculty img {
+  margin-top: -70px; }
+
+#faculty .fa {
+  font-size: 25px; }
+
+#faculty .card:hover {
+  background: #3292a6;
+  color: #fff; }
+  #faculty .card:hover .fa {
+    color: #fff; }
